@@ -1,15 +1,75 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 :root{
     --cor01: #F2CCB6;
     --cor02: #F2884B;
     --cor03: #E07735;
     --cor04: #925B25;
     --cor05: #40241A;
+    
+    --fonte: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte_padrao: 'Sriracha', cursive;
+    --fonte_destaque: 'Rubik Moonrocks', cursive;
+    --fonte_texto: 'Dancing Script', cursive;
+
+
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 98vh;
+    background-color: var(--cor05);
+    font-family: var(--fonte_padrao) ;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    /* color: white; */
+    font-weight: bolder;
+
+}
+
+header h1 {
+    font-family: var(--fonte_texto);
+    font-variant: small-caps;
+
+}
+
+main {
+    max-width: 800px;
+    width: 90vw ;
+    min-width: 320px;
+    margin: auto;
 }
 
 
-main{
-    height: 98vh;
-    background-color: var(--cor05);
+main h1 {
+    font-family: var(--fonte_destaque);
+    font-size: 1.5em;
+
+}
+
+main p { 
+    font-family: var(--fonte_padrao);
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+section.normal {
+    background-color: var(--cor01);
+    padding: 10vh 5vw;
+}
+
+section.paralax {
+    background-color: var(--cor04);
+    padding: 10vh 5vw;
+    box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.452);
 }
