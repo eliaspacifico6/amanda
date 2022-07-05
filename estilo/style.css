@@ -46,7 +46,6 @@ header h1 {
 main {
     max-width: 800px;
     width: 90vw ;
-    min-width: 320px;
     margin: auto;
 }
 
@@ -59,7 +58,7 @@ main h1 {
 
 main p { 
     font-family: var(--fonte_padrao);
-    font-size: 1.5em;
+    font-size: 2vw;
     text-align: justify;
 }
 
