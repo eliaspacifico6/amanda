@@ -73,7 +73,8 @@ section.paralax {
     padding: 10vh 5vw;
     box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.452);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;    
+    background-attachment: fixed;
 }
 
 section#paralax01 {
