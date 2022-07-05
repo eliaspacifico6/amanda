@@ -39,7 +39,8 @@ header{
 
 header h1 {
     font-family: var(--fonte_texto);
-    font-variant: small-caps;
+    font-variant: small-caps;    
+    font-size: 5vw;
 
 }
 
@@ -52,7 +53,7 @@ main {
 
 main h1 {
     font-family: var(--fonte_destaque);
-    font-size: 1.5em;
+    font-size: 2.5vw;
 
 }
 
@@ -71,4 +72,28 @@ section.paralax {
     background-color: var(--cor04);
     padding: 10vh 5vw;
     box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.452);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#paralax01 {
+    background-image: url(../imagens/foto_praça_01.jpg);    
+    background-position: center center ;
+}
+
+section#paralax02 {
+    background-image: url(../imagens/amanda_trança03.jpeg);    
+    background-position: center top ;
+}
+
+section#paralax01  p {
+    background-color: rgba(0, 0, 0, 0.267);    
+    padding: 10px;
+    color: var(--cor01);
+}
+
+section#paralax02  p {
+    background-color: rgba(0, 0, 0, 0.100);    
+    padding: 10px;
+    color: var(--cor05);
 }
