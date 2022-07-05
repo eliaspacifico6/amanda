@@ -71,7 +71,7 @@ main h1 {
 
 main p { 
     font-family: var(--fonte_padrao);
-    font-size: 4vw;
+    font-size: 1.5em;
     text-align: justify;    
     line-height: 3em;
 }
@@ -98,6 +98,11 @@ section#paralax01 {
 section#paralax02 {
     background-image: url(../imagens/foto_praça_02.jpg);    
     background-position: center top ;
+}
+
+section#paralax03 {
+    background-image: url(../imagens/foto_praça_03.jpg);    
+    background-position: center right ;
 }
 
 section.paralax p {
